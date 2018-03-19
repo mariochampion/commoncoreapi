@@ -1,0 +1,78 @@
+/*
+
+simple css for standards.trails.by - by mariochampion@trails.by
+
+*/
+
+body{
+	background-color:#f8f8f8;
+	font-size:15px;
+	padding:20px;
+	/*font-family:Trebuchet MS;*/
+	font-family: 'Inconsolata', serif;
+
+}
+
+.preamble{
+	margin-bottom:20px;
+}
+
+.wrapperhead{
+	font-size:20px !important;
+}
+
+.api-wrapper{
+	margin:40px 0 10px 0;
+	padding-top: 40px;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.api-head{
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.api-sample p, pre {
+	padding: 20px;
+	background-color: #fdfdfd;
+	font-size: 12px;
+	line-height: 125%;
+	margin: 10px 15px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	letter-spacing: 1px;
+	font-family: Monaco, Courier New, Lucida Console, monospace;
+	word-wrap: break-word;
+}
+
+li{
+	color:#333;
+	
+}
+
+.footer, .footer a{
+	font-size: 12px;
+	line-height: 125%;
+	margin-top: 10px;
+	letter-spacing: 1px;
+	color:#999;	
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
