@@ -9,7 +9,7 @@ class ParsetoDB {
 		
 		$this->data['dbdata']['host'] = "localhost";
 		$this->data['dbdata']['user'] = "root";
-		$this->data['dbdata']['pass'] = "allf0rplast1chang3rs";
+		$this->data['dbdata']['pass'] = grabfromsecure();
 		$this->data['dbdata']['database'] = "standards";
 		$this->data['dbdata']['connection'] = mysql_connect($this->data['dbdata']['host'],$this->data['dbdata']['user'],$this->data['dbdata']['pass']);
 		$this->data['dbdata']['mysql_select'] = @mysql_select_db($this->data['dbdata']['database']) or die( "Unable to select database");
