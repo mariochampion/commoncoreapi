@@ -1,4 +1,4 @@
-# commoncoreapi repo
+# common core API repo
 
 ## (IN PROGRESS, as this is a re-do of a project which went offline...)
 
