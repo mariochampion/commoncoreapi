@@ -7,9 +7,9 @@ class ParsetoDB {
 	//// functions returns data for using old fashioned sql! lets see if i can do this after so much doctrine!
 	public function __construct(){
 		
-		$this->data['dbdata']['host'] = "localhost";
-		$this->data['dbdata']['user'] = "root";
-		$this->data['dbdata']['pass'] = grabfromsecure();
+		$this->data['dbdata']['host'] = grabfromsecure('lh');
+		$this->data['dbdata']['user'] = grabfromsecure('us');
+		$this->data['dbdata']['pass'] = grabfromsecure('pw');
 		$this->data['dbdata']['database'] = "standards";
 		$this->data['dbdata']['connection'] = mysql_connect($this->data['dbdata']['host'],$this->data['dbdata']['user'],$this->data['dbdata']['pass']);
 		$this->data['dbdata']['mysql_select'] = @mysql_select_db($this->data['dbdata']['database']) or die( "Unable to select database");
