@@ -1,6 +1,6 @@
 # common core API repo
 
-## (IN PROGRESS, as this is a re-do of a project which went offline...)
+## (IN PROGRESS: this is a re-do of an internal back-end project which went offline...)
 
 The users of Trails desired to tag their resources with standards from the Common Core, but there was no API-able mechanism to do so. Therefore, I scraped the open data*, built several middleware scripts to restructure it in a new database, built the API endpoints, then documented and made it all available under Creative Commons Attribution license.
 
